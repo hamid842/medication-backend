@@ -1,0 +1,44 @@
+{
+    "name": "MedicinInfo",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "importantInfo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "usage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "initialCount",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promised",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "refillInfo",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "pharmacyNotes",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200113170734",
+    "entityTableName": "medicin_info",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
